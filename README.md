@@ -153,3 +153,5 @@ Reboot camera. Press mode button for two seconds.
 Verify that app is lighting the correct LEDs with the correct color.
 
 ![successful camera test](doc/img/test-camera.jpg) 
+
+![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/pluginlibrary
