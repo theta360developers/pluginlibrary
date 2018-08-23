@@ -155,3 +155,17 @@ Verify that app is lighting the correct LEDs with the correct color.
 ![successful camera test](doc/img/test-camera.jpg) 
 
 ![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/pluginlibrary)
+
+## Possible Issues and Solutions
+
+### Package Name Changes
+
+I've had a few cases where the package name changed.
+
+![package name](doc/img/package-name.jpg) 
+
+In some cases, I needed to refactor the directory.
+
+![refactor](doc/img/refactor.png) 
+
+
