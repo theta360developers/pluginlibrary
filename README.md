@@ -1,9 +1,9 @@
 # RICOH THETA Plug-in Library
 
-Taken from the 
-[RICOH THETA Plug-in SDK](https://github.com/ricohapi/theta-plugin-sdk).
-
-It's intended for developers that want to create a new Android
+Copied from the 
+[RICOH THETA Plug-in SDK](https://github.com/ricohapi/theta-plugin-sdk) with no
+modifications to the library. 
+Intended for developers that want to create a new Android
 SDK and import the module.
 
 The plug-in library implements the following functions:
@@ -27,11 +27,9 @@ Please refer to the [Plug-in Development Guide](http://theta360.guide/plugin/)
 for usage information.
 
 1. Import "pluginlibrary" in the SDK by selecting "File"-"New"-"Import Module..."
-2. Add a text "include ':app', ':pluginlibrary'" in "settings.gradle" file
-3. I also needed to add `implementation project(':pluginlibrary')` in build.gradle
-
-4. Sync by selecting "File"-"Sync Project with Gradle Files".
-
+2. Add "include ':app', ':pluginlibrary'" in "settings.gradle" file
+3. You may need to add `implementation project(':pluginlibrary')` in build.gradle
+4. Sync by selecting "File"-"Sync Project with Gradle Files"
 
 ## Start New Project
 
@@ -154,4 +152,4 @@ Reboot camera. Press mode button for two seconds.
 
 Verify that app is lighting the correct LEDs with the correct color.
 
-![successful camera test](doc/img/test-camera.png) 
+![successful camera test](doc/img/test-camera.jpg) 
