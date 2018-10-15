@@ -168,4 +168,5 @@ In some cases, I needed to refactor the directory.
 
 ![refactor](doc/img/refactor.png) 
 
+![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/pluginlibrary)
 
